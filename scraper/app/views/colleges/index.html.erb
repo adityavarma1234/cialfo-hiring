@@ -1,0 +1,26 @@
+<h1>Listing Colleges</h1>
+ 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Rank</th>
+    <th>Tuition Fees</th>
+    <th>Total Enrollement</th>
+    <th>Acceptance Rate</th>
+    <th>Average Retention Rate</th>
+    <th>Graduation Rate</th>
+  </tr>
+ 
+<% @colleges.each do |college| %>
+  <tr>
+    <td><center><%= college["name"] %></center></td>
+    <td><center><%= college["rank"] %></center></td>
+    <td><center><%= college["tuition_fees"] %></center></td>
+    <td><center><%= college["total_enrollement"] %></center></td>
+    <td><center><%= college["acceptance_rate"] %></center></td>
+    <td><center><%= college["average_retention_rates"] %></center></td>
+    <td><center><%= college["graduation_rate"] %></center></td>
+  </tr>
+<% end %>
+</table>
+<%= will_paginate @colleges %>

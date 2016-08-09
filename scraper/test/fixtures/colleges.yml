@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  rank: MyString
+  tuition_fees: MyString
+  total_enrollement: MyString
+  acceptance_rate: MyString
+  average_retention_rates: MyString
+  graduation_rate: MyString
+
+two:
+  name: MyString
+  rank: MyString
+  tuition_fees: MyString
+  total_enrollement: MyString
+  acceptance_rate: MyString
+  average_retention_rates: MyString
+  graduation_rate: MyString

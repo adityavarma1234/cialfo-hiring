@@ -1,0 +1,23 @@
+== README
+
+Simple ruby on rails scraper to get college information from http://colleges.usnews.rankingsandreviews.com
+
+=== Set up the environment
+
+rake db:create
+rake db:migrate
+
+
+=== Scraping the universities
+
+rake scrape:university_rankings
+
+saves data in public/colleges.json
+
+=== GEMS
+
+will_paginate
+nokogiri
+mechanize
+pry
+rspec-rails
